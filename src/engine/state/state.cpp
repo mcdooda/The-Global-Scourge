@@ -1,0 +1,14 @@
+#include "state.h"
+
+namespace engine
+{
+    namespace state
+    {
+
+        State::State()
+        {
+
+        }
+
+    }
+}
