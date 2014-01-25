@@ -9,6 +9,11 @@ namespace engine
         {
 
         }
+        
+        State::~State()
+        {
+            
+        }
 
     }
 }

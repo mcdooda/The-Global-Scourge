@@ -24,6 +24,11 @@ namespace engine
         {
             
         }
+        
+        Color::~Color()
+        {
+            
+        }
 
         void Color::use()
         {

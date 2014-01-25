@@ -14,6 +14,7 @@ namespace engine
         {
             public:
                 State();
+                virtual ~State();
 
                 virtual void enter(Agent* agent) = 0;
                 virtual void execute(Agent* agent) = 0;

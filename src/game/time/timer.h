@@ -12,6 +12,7 @@ namespace game
         {
             public:
                 Timer(float timeOut, bool loops);
+                virtual ~Timer();
                 
                 static void triggerTimers();
                 static void clearTimers();

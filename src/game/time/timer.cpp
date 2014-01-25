@@ -20,6 +20,11 @@ namespace game
             addToList();
         }
         
+        Timer::~Timer()
+        {
+            
+        }
+        
         void Timer::triggerTimers()
         {
             //std::cout << timers.size() << " timers" << std::endl;

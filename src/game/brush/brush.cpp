@@ -13,6 +13,11 @@ namespace game
         {
 
         }
+        
+        Brush::~Brush()
+        {
+            
+        }
 
         void Brush::incrementSize()
         {
