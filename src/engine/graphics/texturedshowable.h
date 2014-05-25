@@ -14,6 +14,7 @@ namespace engine
         {
             public:
                 TexturedShowable(Vector2d dimensions, Vector2d center);
+                virtual ~TexturedShowable();
 
                 void resetTextureCoords();
                 inline void setTextureCoords(float* textureCoords) { m_textureCoords = textureCoords; }

@@ -15,6 +15,11 @@ namespace engine
             resetTextureCoords();
             updateVertices();
         }
+        
+        TexturedShowable::~TexturedShowable()
+        {
+            
+        }
 
         void TexturedShowable::resetTextureCoords()
         {
