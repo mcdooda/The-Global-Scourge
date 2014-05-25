@@ -11,7 +11,12 @@ namespace game
             m_size(1),
             m_limitWidth(1)
         {
-
+            
+        }
+        
+        Brush::~Brush()
+        {
+            
         }
 
         void Brush::incrementSize()

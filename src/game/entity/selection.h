@@ -12,6 +12,7 @@ namespace game
         {
             public:
                 Selection(engine::graphics::Texture* texture, float radius);
+                virtual ~Selection();
                 
             protected:
                 Selection(engine::graphics::Texture* texture, int size);

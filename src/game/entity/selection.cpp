@@ -11,6 +11,11 @@ namespace game
             setTexture(texture);
         }
         
+        Selection::~Selection()
+        {
+            
+        }
+        
         Selection::Selection(engine::graphics::Texture* texture, int size) :
             TexturedShowable(texture->getDimensions() * size, engine::Vector2d(texture->getDimensions().getX() * size / 2, texture->getDimensions().getY() / 2))
         {

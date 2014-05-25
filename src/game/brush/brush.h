@@ -13,6 +13,7 @@ namespace game
         {
             public:
                 Brush();
+                virtual ~Brush();
 
                 inline float getSize() const { return m_size; }
                 inline void setSize(float size) { m_size = size; }

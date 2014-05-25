@@ -11,6 +11,7 @@ namespace engine
             public:
                 Color(unsigned char r, unsigned char g, unsigned char b);
                 Color(unsigned char gray);
+                virtual ~Color();
 
                 inline unsigned char getR() const { return m_r; }
                 inline unsigned char getG() const { return m_g; }

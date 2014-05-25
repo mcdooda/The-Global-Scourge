@@ -7,7 +7,12 @@ namespace engine
 
         State::State()
         {
-
+            
+        }
+        
+        State::~State()
+        {
+            
         }
 
     }
